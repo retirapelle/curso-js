@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu primeiro Script em Java Script</title>
+</head>
+<body>
+    <main>        
+        <h1>Olá, mundo!</h1>
+        <p>Já me livrei da maldição</p>
+    </main>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) //com o Number.parseInt/Number.parseFloat/Number, o retorno para o var será number e não string
+        var n2 = Number(window.prompt('Digite um segundo número: '))
+        var s = n1 / n2
+        window.alert(`A divisão entre ${n1} e ${n2} é igual a ${s}`)//isso é um template string, ajuda a digitar vários var dentro de uma string, ficando melhor do que a utilização do "+" para concatenação do código
+        //Para string simples, usamos aspas simples ('') ou aspas duplas (""), já para template string, utilizamos crase (``), se não, ela não funciona
+    </script>
+</body>
+</html>
