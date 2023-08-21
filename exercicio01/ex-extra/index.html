@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IMC</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de IMC</h1>
+    </header>
+    <section>
+        <div>
+            <label for="altura">
+                Qual a sua altura? (cm)
+                <input type="number" name="altura" id="altura" min="50" max="250" placeholder="Sua altura">
+            </label>
+            <label for="peso">
+                Qual o seu peso? (kg)
+                <input type="number" name="peso" id="peso" placeholder="Seu peso" min="30"
+                max="250">
+            </label>
+            <input type="button" value="Calcular" onclick="verificar()">
+            <p id=""></p>
+            <p id="resultado"></p>
+        </div>
+    </section>
+    <footer>
+        <p>© CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
