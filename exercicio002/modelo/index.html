@@ -4,15 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Hora do dia</title>
+    <title>Tabuada</title>
 </head>
 <body>
     <header>
-        <h1>Horas do dia</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
-        <div>testando...</div>
-        <div>Olá</div>
+        <div>
+            <label for="numero"> Digite um número: 
+                <input type="number" name="numero" id="numero">
+            </label>
+            </div>
+            <div>
+            <label for="multiplicador"> Quantas vezes deseja multiplicar? 
+                <input type="number" name="multiplicador" id="multiplicador">
+            </label>
+        </div>
+        <div>
+            <hr>
+                <p>Quer saber como é feita a multiplicação com soma?</p>
+                <label for="Sim"> Sim
+                    <input type="radio" name="sn" id="sim" value="sim">
+                </label>
+                <label for="nao">Não
+                    <input type="radio" name="sn" id="nao" value="nao">
+                </label>
+        </div>
+        <hr>
+        <input type="button" value="Gerar tabuada" onclick="gerar()">
+        <div id="res"></div>
     </section>
     <footer>
         <p>© CursoemVideo</p>

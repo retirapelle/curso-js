@@ -4,15 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Hora do dia</title>
+    <title>Tabuada</title>
 </head>
 <body>
     <header>
-        <h1>Horas do dia</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
-        <div>testando...</div>
-        <div>Olá</div>
+        <div>
+            <label for="numero">
+                <input type="number" id="numero" name="numero">
+            </label>
+            <input type="button" value="Gerar Tabuada" id="calcular" onclick="calcular()" >
+        </div>
+        <div >
+            <select name="tabuada" id="seltab" size="10">
+                <option>Digite um número acima...</option>
+            </select>
+        </div>
     </section>
     <footer>
         <p>© CursoemVideo</p>

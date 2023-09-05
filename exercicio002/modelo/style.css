@@ -17,6 +17,18 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
 }
 
+div {
+    padding: 5px;
+}
+
+input {
+    margin: auto;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
 footer {
     text-align: center;
     color: white;
